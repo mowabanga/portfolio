@@ -1,10 +1,9 @@
-import { FC } from "react";
 /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 import heroImage from "@/assets/images/hero-image.jpg";
 import Image from "next/image";
 import Button from "@/components/Button";
 
-const Hero: FC = () => {
+export default function Hero() {
   return (
     <section>
       <div className="grid md:grid-cols-12 md:h-screen items-stretch">
@@ -48,5 +47,3 @@ const Hero: FC = () => {
     </section>
   );
 };
-
-export default Hero;
